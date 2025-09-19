@@ -6,16 +6,21 @@
 
 ```
 .
-├── CMakeLists.txt       # CMake构建配置文件
+├── .gitignore          # Git忽略文件配置
+├── CMakeLists.txt      # CMake构建配置文件
 ├── README.md           # 项目说明文档
-├── src/
-│   ├── main.cpp               # 基础图像处理程序源代码
-│   └── armor_detector_v2.cpp  # 改进版装甲板检测程序源代码
-├── resources/
-│   ├── cosmos-7585071_1280.jpg    # 测试图像
-│   ├── test_image_2.png           # Robomaster比赛测试图像
+├── build/              # 构建输出目录
+│   ├── opencv_image_processing        # 基础图像处理可执行文件
+│   ├── armor_detector_v2             # 装甲板检测可执行文件
+│   └── CMakeFiles/                   # CMake生成的构建文件目录
+├── src/                # 源代码目录
+│   ├── main.cpp                   # 基础图像处理程序源代码
+│   └── armor_detector_v2.cpp      # 改进版装甲板检测程序源代码
+├── resources/          # 资源文件目录
+│   ├── cosmos-7585071_1280.jpg           # 测试图像
+│   ├── test_image_2.png                  # Robomaster比赛测试图像
 │   └── 第二次培训：OpenCV C++ 图像处理基础 (1).pdf  # OpenCV基础教程
-└── output/              # 处理后的图像输出目录
+└── output/             # 处理后的图像输出目录
     ├── 01_original_image.jpg              # 原始图像
     ├── 02_grayscale_image.jpg              # 灰度图
     ├── 03_hsv_image.jpg                   # HSV图像
@@ -33,7 +38,11 @@
     ├── 15_drawn_red_bounding_boxes.jpg   # 绘制红色边界框
     ├── 16_rotated_35_degrees.jpg         # 旋转35度图像
     ├── 17_cropped_quarter.jpg            # 裁剪左上角1/4图像
-    └── armor_detection_v2_result.jpg      # 改进版装甲板检测结果图像
+    ├── armor_detection_v2_result.jpg      # 改进版装甲板检测结果图像
+    ├── process.txt                       # 处理过程输出文本
+    ├── terminal_cmake.png                # CMake构建过程截图
+    └── terminal_make.png                 # Make编译过程截图
+    
 ```
 
 ## 功能介绍
@@ -96,6 +105,10 @@
    make
    ```
 
+
+![cmake_output](./output/terminal_cmake.png)
+![cmake_output](./output/terminal_make.png)
+
 ### 运行程序
 
 #### 基础图像处理程序
@@ -109,6 +122,41 @@
 2. 按任意键可以切换到下一个处理结果
 3. 自动将所有处理后的图像保存到 `../output` 目录
 4. 在控制台输出检测到的红色轮廓的面积信息
+
+```
+红色轮廓 0 的面积: 0.5
+红色轮廓 1 的面积: 0.5
+红色轮廓 2 的面积: 1.5
+红色轮廓 3 的面积: 179.5
+红色轮廓 4 的面积: 0.5
+红色轮廓 5 的面积: 74.5
+红色轮廓 6 的面积: 37.5
+红色轮廓 7 的面积: 0
+红色轮廓 8 的面积: 0
+红色轮廓 9 的面积: 0.5
+红色轮廓 10 的面积: 16.5
+红色轮廓 11 的面积: 0
+红色轮廓 12 的面积: 0
+红色轮廓 13 的面积: 0
+红色轮廓 14 的面积: 1.5
+红色轮廓 15 的面积: 0
+红色轮廓 16 的面积: 7
+红色轮廓 17 的面积: 0
+红色轮廓 18 的面积: 686.5
+红色轮廓 19 的面积: 6
+红色轮廓 20 的面积: 2
+红色轮廓 21 的面积: 0
+红色轮廓 22 的面积: 0
+红色轮廓 23 的面积: 0
+红色轮廓 24 的面积: 1
+......
+红色轮廓 124 的面积: 37.5
+红色轮廓 125 的面积: 0
+红色轮廓 126 的面积: 4
+红色轮廓 127 的面积: 0
+所有处理后的图像已保存到 ../output 目录
+```
+中间的部分略，详细见`../output/process.txt`。
 
 #### 装甲板检测程序
 
