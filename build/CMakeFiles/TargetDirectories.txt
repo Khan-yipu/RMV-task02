@@ -1,4 +1,0 @@
-/home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/build/CMakeFiles/opencv_image_processing.dir
-/home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/build/CMakeFiles/armor_detector_v2.dir
-/home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/build/CMakeFiles/edit_cache.dir
-/home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/build/CMakeFiles/rebuild_cache.dir
