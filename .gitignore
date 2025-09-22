@@ -1,4 +1,5 @@
 IFLOW.md
-build
+build/
+.gitignore
 
 
