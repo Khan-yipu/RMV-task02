@@ -76,15 +76,15 @@ CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.o: CMakeFiles/armor_d
 CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.o: /home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/src/armor_detector_v2.cpp
 CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.o: CMakeFiles/armor_detector_v2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.o -MF CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.o.d -o CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.o -c /home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/src/armor_detector_v2.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.o -MF CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.o.d -o CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.o -c /home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/src/armor_detector_v2.cpp
 
 CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/src/armor_detector_v2.cpp > CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/src/armor_detector_v2.cpp > CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.i
 
 CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/src/armor_detector_v2.cpp -o CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanif/Desktop/yipu/my_university/robomaster/task02/opencv_project/src/armor_detector_v2.cpp -o CMakeFiles/armor_detector_v2.dir/src/armor_detector_v2.cpp.s
 
 # Object files for target armor_detector_v2
 armor_detector_v2_OBJECTS = \

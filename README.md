@@ -6,13 +6,8 @@
 
 ```
 .
-├── .gitignore          # Git忽略文件配置
 ├── CMakeLists.txt      # CMake构建配置文件
 ├── README.md           # 项目说明文档
-├── build/              # 构建输出目录
-│   ├── opencv_image_processing        # 基础图像处理可执行文件
-│   ├── armor_detector_v2             # 装甲板检测可执行文件
-│   └── CMakeFiles/                   # CMake生成的构建文件目录
 ├── src/                # 源代码目录
 │   ├── main.cpp                   # 基础图像处理程序源代码
 │   └── armor_detector_v2.cpp      # 改进版装甲板检测程序源代码
